@@ -1,0 +1,32 @@
+calendrica-js — attribution notice
+
+This package is a JavaScript port of calendrical conversion algorithms
+published in:
+
+  Edward M. Reingold and Nachum Dershowitz,
+  "Calendrical Calculations: The Ultimate Edition" (4th edition),
+  Cambridge University Press, 2018.
+  ISBN 978-1-107-05762-3.
+
+The reference implementation, CALENDRICA 3.0 (Common Lisp), is
+copyright © E. M. Reingold and N. Dershowitz and is distributed under
+a licence permitting:
+
+  "re-use within non-commercial, non-profit software provided prominent
+   credit is given and the Authors' rights are preserved."
+
+calendrica-js is a non-commercial port by Chirag Patnaik for use in
+the Mechanikon cultural-heritage project (https://mechanikon.naklitechie.com).
+This NOTICE, together with the credit lines in each ported file header
+and the Mechanikon colophon, constitutes the prominent credit required.
+
+Any errors introduced by this port are the porter's, not the original
+authors'. For the canonical reference implementation and for commercial
+licensing inquiries, contact:
+
+  Edward M. Reingold <reingold@iit.edu>
+  https://www.calendarists.com
+
+The port uses astronomical year numbering (year 0 = 1 BCE) throughout,
+which differs from the historical BC/AD numbering R-D use by default.
+This is a deliberate choice appropriate to a proleptic calendar tool.

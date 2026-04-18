@@ -1,0 +1,70 @@
+{
+  "name": "@naklitechie/calendar-library",
+  "version": "1.0.0",
+  "description": "Convert dates across 28 calendar systems. Pure ES modules, no dependencies.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./gregorian": "./gregorian.js",
+    "./julian": "./julian.js",
+    "./iso-week": "./iso-week.js",
+    "./coptic": "./coptic.js",
+    "./ethiopian": "./ethiopian.js",
+    "./egyptian": "./egyptian.js",
+    "./islamic-arithmetic": "./islamic-arithmetic.js",
+    "./islamic-umm-al-qura": "./islamic-umm-al-qura.js",
+    "./french-republican": "./french-republican.js",
+    "./french-republican-astronomical": "./french-republican-astronomical.js",
+    "./byzantine": "./byzantine.js",
+    "./kali-yuga": "./kali-yuga.js",
+    "./discordian": "./discordian.js",
+    "./maya": "./maya.js",
+    "./japanese": "./japanese.js",
+    "./hebrew": "./hebrew.js",
+    "./buddhist": "./buddhist.js",
+    "./solar-hijri": "./solar-hijri.js",
+    "./solar-hijri-astronomical": "./solar-hijri-astronomical.js",
+    "./chinese": "./chinese.js",
+    "./hindu-shaka": "./hindu-shaka.js",
+    "./hindu-vikram": "./hindu-vikram.js",
+    "./hindu-vikram-purnimanta": "./hindu-vikram-purnimanta.js",
+    "./babylonian": "./babylonian.js",
+    "./nanakshahi": "./nanakshahi.js",
+    "./myanmar": "./myanmar.js",
+    "./astronomy": "./astronomy.js",
+    "./julian-day": "./julian-day.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "*.js",
+    "data/",
+    "tests/",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "keywords": [
+    "calendar",
+    "date-conversion",
+    "gregorian",
+    "julian",
+    "hebrew",
+    "islamic",
+    "chinese",
+    "myanmar",
+    "japanese",
+    "hindu",
+    "maya",
+    "lunisolar",
+    "calendrical"
+  ],
+  "author": "Chirag Patnaik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NakliTechie/CalendarLibrary.git"
+  },
+  "homepage": "https://github.com/NakliTechie/CalendarLibrary"
+}
