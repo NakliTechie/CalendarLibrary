@@ -137,6 +137,10 @@ Algorithms are sourced from:
 
 See [NOTICE](./NOTICE) for full attributions.
 
+## Used in
+
+- [Mechanikon — Calendars of the World](https://mechanikon.naklitechie.com/calendars/) — an interactive explorer of all 28 calendar systems across three views: concentric rings, horizontal strips, and a lineage tree.
+
 ## License
 
 MIT © Chirag Patnaik
